@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png" />
     <title>Buat Password</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="card">
-            <div class="greeting el">
-                <h3 style="font-family: 'Passion One', cursive; font-size: 30px; word-spacing: 5px; letter-spacing: 1px;">Buat Password
-                </h3>
-                <p style="font-family: 'Ubuntu Condensed', sans-serif; letter-spacing: 10px;">made with <i class="fas fa-heart love" style="color: red;"></i> by...</p>
-                <a href="https://instagram.com/robiism_" target="_blank" style="text-decoration: none; color: black; font-family: 'Ubuntu Condensed', sans-serif; letter-spacing: 2.5px;"><i class="fab fa-instagram"></i> robiism_</a>
-            </div>
-            <form action="" class="form el">
-                <div class="inputWrapper input1">
-                    <input type="text" class="inputPassword" placeholder="ketikan password baru">
-                </div>
-                <div class="inputWrapper input2">
-                    <input type="text" class="inputShift" placeholder="ketikan angka [1-25]">
-                </div>
-                <button class="generatePassword">
-                    <p class="textBtn">Buat Password</p>
-                    <img src="images/Rolling-1s-200px.svg" width="14px;" class="loading" style="margin: auto;">
-                </button>
-                <div class="outputBoxWrapper">
-                    <textarea class="outputBox" readonly></textarea>
-                    <button class="copyPassBtn">Salin Password</button>
-                </div>
-            </form>
-            <!-- <div class="greet el">
+      <div class="card">
+        <div class="greeting el">
+          <h3
+            style="
+              font-family: 'Passion One', cursive;
+              font-size: 30px;
+              word-spacing: 5px;
+              letter-spacing: 1px;
+            ">
+            Buat Password
+          </h3>
+        </div>
+        <form action="" class="form el">
+          <div class="inputWrapper input1">
+            <input
+              type="text"
+              class="inputPassword"
+              placeholder="ketikan password baru" />
+          </div>
+          <div class="inputWrapper input2">
+            <input
+              type="text"
+              class="inputShift"
+              placeholder="ketikan angka [1-25]" />
+          </div>
+          <button class="generatePassword">
+            <p class="textBtn">Buat Password</p>
+            <img
+              src="images/Rolling-1s-200px.svg"
+              width="14px;"
+              class="loading"
+              style="margin: auto" />
+          </button>
+          <div class="outputBoxWrapper">
+            <textarea class="outputBox" readonly></textarea>
+            <button class="copyPassBtn">Salin Password</button>
+          </div>
+        </form>
+        <!-- <div class="greet el">
 
             </div> -->
-            <img src="images/undraw_Security_on_re_e491.svg" width="200px" class="securitySVG">
-        </div>
+        <img
+          src="images/undraw_Security_on_re_e491.svg"
+          width="200px"
+          class="securitySVG" />
+      </div>
     </div>
 
     <script src="anime.min.js"></script>
     <script src="animasi.js"></script>
-</body>
+  </body>
 </html>

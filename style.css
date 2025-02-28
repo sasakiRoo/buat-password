@@ -73,6 +73,7 @@ input{
     outline: none;
     background:none;
     width: inherit;
+    padding: 10px;
 }
 input::placeholder{
     color: rgba(0, 0, 0, 0.66)
@@ -137,7 +138,8 @@ button{
     z-index: -1;
 }
 .generatePassword{
-    width: 100px;
+    margin-top: 20px;
+    padding: 10px 12px;
 }
 button{
     border: none;
